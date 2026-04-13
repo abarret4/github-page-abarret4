@@ -4,9 +4,28 @@
 
 <p>WHAT IS HERE? WHAT SHOULD VISITORS NOTICE?</p>
 
+import numpy as np
+import pandas as pd
+import plotly.express as px
+
 <h2>Visualizations</h2>
 
-<p>INSERT IMAGE</p>
+phl_film = pd.read_csv("films.csv", usecols=fields)
+
+phl_by_year = phl_film.groupby(["Film", "Year"], as_index=False).size()
+
+# Use px.line() to build line graph and add some formatting
+fig = px.line(
+    phl_by_year,
+    x="Year",
+    y="size",
+    title="Count by Year",
+    labels={"size": "Count"},
+    color="Charge"
+)
+
+fig.show()
+
 <p>A rough timeline of the productions and releases of each of the 28 film.</p>
 
 <p>INSERT MAP</p>
