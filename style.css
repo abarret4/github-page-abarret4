@@ -2,8 +2,8 @@ body {
   font-family:"Comic Neue";
   line-height: 1.7;
   margin: 20px;
-  color: #190319;
-  background: #ffe8c9;
+  color: #270427;
+  background: #ffe7c7;
 }
 
 header, main, footer {
@@ -29,7 +29,7 @@ nav {
 
 nav a {
   margin-right: 1.25rem;
-  color: #2a4a7f;
+  color: #5e0d6b;
   text-decoration: none;
 }
 
@@ -52,12 +52,13 @@ img {
   margin: 1.5rem 0;
   height: 250px;
   width: auto;
-  border: 1px solid #ccc;
+  border: 1px solid #ff2525;
   display: block;
 }
 
 .container {
   display: inline-grid;
+  background-color: #ff7777;
   grid-template-columns: auto auto auto auto;
   padding: 10px
 }
@@ -71,10 +72,11 @@ img {
 }
 
 figcaption {
-  font-family: sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 0.88rem;
-  color: #555;
+  color: #101f15;
   margin-top: 0.4rem;
+  text-align: left;
 }
 
 .sketch-grid {
