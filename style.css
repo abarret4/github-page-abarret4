@@ -52,29 +52,53 @@ img {
   margin: 1.5rem 0;
   height: 250px;
   width: auto;
-  border: 1px solid #ff2525;
   display: block;
 }
 
-.container {
+.samfull {
+  margin: 1.5rem 0;
+  height: 450px;
+  width: auto;
+  display: block;
+}
+
+.fullercont {
   display: inline-grid;
-  background-color: #ff7777;
-  grid-template-columns: auto auto auto auto;
+  background-color: #111010;
+  grid-template-columns: auto auto;
+  color: #f5cc80;
   padding: 10px
 }
 
 @media (max-width: 700px){
-    .container {
+    .fullercont {
     display: inline-grid;
     grid-template-columns: auto;
     padding: 10px
     }
 }
 
+.filmcont {
+  display: inline-grid;
+  background-color: #373737;
+  border: 1px solid #efdd3d;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px
+}
+
+@media (max-width: 700px){
+    .filmcont {
+    display: inline-grid;
+    grid-template-columns: auto;
+    padding: 10px
+    }
+}
+
+
 figcaption {
   font-family: 'Times New Roman', Times, serif;
   font-size: 0.88rem;
-  color: #101f15;
+  color: #eae0b7;
   margin-top: 0.4rem;
   text-align: left;
 }
