@@ -65,7 +65,7 @@ img {
 .fullercont {
   display: inline-grid;
   background-color: #111010;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto;
   color: #ab5b5b;
   padding: 10px
 }
