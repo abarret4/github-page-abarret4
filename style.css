@@ -101,7 +101,7 @@ figcaption {
   color: #eae0b7;
   margin-top: 0.4rem;
   text-align: left;
-  text-wrap: calc(90);
+  text-wrap: calc(90px);
 }
 
 .sketch-grid {
