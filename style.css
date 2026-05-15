@@ -63,7 +63,7 @@ img {
 }
 
 .fullercont {
-  display: inline-grid;
+  display: i;
   background-color: #111010;
   grid-template-columns: auto auto;
   color: #ab5b5b;
@@ -85,15 +85,6 @@ img {
   grid-template-columns: auto auto auto auto;
   padding: 10px
 }
-
-@media (max-width: 700px){
-    .filmcont {
-    display: inline-grid;
-    grid-template-columns: auto;
-    padding: 10px
-    }
-}
-
 
 figcaption {
   font-family: 'Times New Roman', Times, serif;

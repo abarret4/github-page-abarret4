@@ -1,0 +1,5 @@
+# Reflection
+
+Even after all the trouble I've had with technology over the course of this semester, building a static html file still managed to feel more complicated than I had expected. I had gone into this project with the idea that I wanted to create something that I'd thought was rather simple, but it turned out that most of my original plans were so complicated that I'd had no idea where to even start with them, and I ended up with a final product that consisted of way less than I had originally intended. I am still happy with my project, however, because I feel like I've learned a lot about just how complicated even the most simple-looking tasks in forming a website can really be.
+
+One of the main things that I really struggled with in making this website was displaying images correctly on the website. 

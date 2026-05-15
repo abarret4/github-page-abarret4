@@ -12,9 +12,15 @@
 **Films.csv:** Data for visualiations
 
 
+## Folders
+
+**Assets:** All images and video clips displayed on the site. 
+**Film-Sites:** Individual film site files for each of the 32 films.
+
+
 ## Data Sources
 
-- The 28  Korean War films produced by Hollywood between 1951 and 1953
+- The 32  Korean War films produced by Hollywood between 1951 and 1953
 
 ## Site URL
 
