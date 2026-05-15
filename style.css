@@ -127,7 +127,9 @@ figcaption {
 .filter {
   color: #270427;
   background-color: #ca6c6c;
+  gap: 1px;
   margin: 1.5rem 0; 
+  text-align: center
 }
 
 ul, ol {
