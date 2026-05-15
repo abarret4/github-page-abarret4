@@ -69,14 +69,15 @@ img {
 }
 
 .fullercont {
-  display: auto;
+  display: inline-grid;
   background-color: #111010;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto;
   color: #ab5b5b;
-  padding: 10px
+  padding: 10px;
+  border: 5px solid #5e1919
 }
 
-@media (max-width: auto){
+@media (max-width: 250px){
     .fullercont {
     display: inline-grid;
     grid-template-columns: auto;
@@ -109,11 +110,24 @@ figcaption {
   text-wrap: calc(90px);
 }
 
+.fullcap {
+  color: #fc0000;
+  margin-top: 0.4rem;
+  text-align: left;
+  text-wrap: 45px;
+}
+
 .sketch-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1.5rem;
   margin: 1.5rem 0;
+}
+
+.filter {
+  color: #270427;
+  background-color: #ca6c6c;
+  margin: 1.5rem 0; 
 }
 
 ul, ol {

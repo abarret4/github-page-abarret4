@@ -19,37 +19,53 @@
 
 </body>
 
-<div class="fullercont">
-    <figure>
-        <a><img src="assets/samuel-fuller.jpg" alt="Samuel Fuller" class="samfull"></a>
-        <figcaption><p>Samuel Fuller on being investigated by the Pentagon as a suspected communist in <em>A Third Face: My Tale of Writing, Fighting, and Filmmaking</em>.</p></figcaption>
-    </figure>
+<section>
+    <div class="fullercont">
+        <figure>
+            <a><img src="assets/samuel-fuller.jpg" alt="Samuel Fuller" class="samfull"></a>
+            <figcaption class="fullcap"><p>Samuel Fuller on being investigated by the Pentagon as a suspected communist
+                in <em>A Third Face: My Tale of Writing, Fighting, and Filmmaking</em>.</p></figcaption>
+        </figure>
+     </div>
     <div class="quote">
         <section>
         <h2>"We all knew the Geneva Convention rules. But war's irrational. Order breaks down. A guy who's been trying to kill you sticks his hands in the air and says he's now your prisoner. Sometimes it doesn't fly, because he just shot your buddy. You kill him.</h2>
         <h2>"It's shameful. It's against the convention. But it happens, damn it. I was only reporting it with a camera.”</h2>
      </section>
     </div>
-</div>
-
+</section>
 <body> 
 
 <section>
-    <h2>Project Overview</h2>
+    <h2>What Is This Site?</h2>
     <p>
-        During the Korean War, filmmakers in the United States produced a total of 28 movies about the war effort.
-        Of these films, 23 productions had the direct involvement of the newly-formed Department of Defense.
+        During the Korean War (1950-1953), filmmakers in the United States produced a total of 32 movies related to the war effort abroad. Twenty-three ofthese films had the direct involvement of the newly-formed Department of Defense.
+        This project highlights these 32 films: ongoing themes, messages, relations to the Korean War, and influence from the Department of Defense -- as well as the IMDB ratings for each film, for those looking for something to watch.
     </p>
     <p>
-        This project highlights these 28 films: their themes, their messages, their relation to the war effort, and the influence from the DOD. This page presents side-by-side information about the production of these 28 films.
+        What sort of Korean War films did the Department of Defense actively produced while the war effort was ongoing? How can we see the propaganda in these films today? These are the questions this site seeks to answer.
     </p>
 </section>
 
 <section>
-    <h2>Research Question</h2>
-    <p>
-        What Korean War films did Hollywood produce while the war effort was ongoing? How involved was the DOD in their productions? How should we comprehend the overall filmography between 1951 and 1953?
-    </p>
+<h2>Search Films:</h2>
+    <table id="film-table" class="filter">
+        <tr class="header">
+            <th style="width:10%;">Title</th>
+            <th style="width:10%;">Director(s)</th>
+            <th style="width:10%;">Writer(s)</th>
+            <th style="width:10%;">Production Company(ies)</th>
+            <th style="width:10%;">Stars</th>
+            <th style="width:10%;">Year</th>
+            <th style="width:10%;">Theme(s)</th>
+            <th style="width:10%;">Rating</th>
+        </tr>
+        <tr>
+             <script>
+                films = open('films.json', 'r')
+            </script>
+        </tr>
+    </table>   
 </section>
 
 <section>

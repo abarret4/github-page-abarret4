@@ -1,5 +1,12 @@
 # Korean War Movies and the Department of Defense, 1951-1953
 
+## Overview
+
+**Research Question:** What sort of Korean War films did the Department of Defense actively produced while the war effort was ongoing? How can we see the propaganda in these films today?
+
+
+
+
 
 ## Files
 
