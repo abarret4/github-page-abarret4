@@ -4,10 +4,6 @@
 
 **Research Question:** What sort of Korean War films did the Department of Defense actively produced while the war effort was ongoing? How can we see the propaganda in these films today?
 
-
-
-
-
 ## Files
 
 **Index:** index.html, .jpg image of Samuel Fuller
