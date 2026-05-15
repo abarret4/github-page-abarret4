@@ -3,13 +3,13 @@
 
 ## Files
 
-**Index:** The main webpage
-**Findings:** Visualizations and descriptions of visualiations
-**Planning:** Sketch Images and Design Nots
-**Sustainability:**
+**Index:** index.html, .jpg image of Samuel Fuller
+**Findings:** findings.html, .jpg images of film posters in the assets folder
+**Planning:** planning.html .jpg images of website design plans
+**Sustainability:** sustainability.html
 
-**Style:** Style sheet for the website (formatting, colors, etc.).
-**Films.csv:** Data for visualiations
+**Style:** style.css -- style sheet for the website
+**Film Database:** films.json -- file tagging each of the 32 films with necessary data
 
 
 ## Folders
@@ -21,6 +21,7 @@
 ## Data Sources
 
 - The 32  Korean War films produced by Hollywood between 1951 and 1953
+- The IMDB website (ratings)
 
 ## Site URL
 
