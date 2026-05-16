@@ -94,6 +94,10 @@ img {
   padding: 10px
 }
 
+.filmcont:hover {
+  background-color:#5a3a5a
+}
+
 .plans {
   display: inline-grid;
   grid-template-columns: auto auto;
